@@ -1,0 +1,70 @@
+.aboutusbody{
+    margin: 0;
+    padding:0;
+  box-sizing: border-box;
+  background: url("./images/abs.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 50vw;
+
+  
+}
+.abus{
+
+  padding: 2vw;
+ margin-top: 15vw;
+}
+.abus h1{
+  font-size: 9vw;
+
+}
+.abus h2{
+  margin-top: -2vw;
+  font-size: 8vw;
+  padding-left: 8vw;
+}
+
+.maintxt{
+  justify-content: center;
+  padding: 2vw;
+  margin-top: 5vw;
+  padding-bottom: 2vw;
+
+}
+@media only screen and (max-width: 750px){
+  .abus{
+    margin-top: 5vw;
+    padding: 2vw;
+  }
+  .maintxt h5{
+    font-size: 5vw;
+}
+.maintxt p{
+ font-size: 4vw;
+}
+}
+@media only screen and (max-width: 650px){
+  .abus{
+    margin-top: 4vw;
+    padding: 2vw;
+  }
+  .maintxt h5{
+        font-size: 5vw;
+   }
+   .maintxt p{
+     font-size: 4vw;
+   }
+}
+@media only screen and (max-width: 550px){
+  .abus{
+    margin-top: 1vw;
+    padding: 2vw;
+  }
+  .maintxt h5{
+    font-size: 5vw;
+}
+.maintxt p{
+ font-size: 4vw;
+}
+}

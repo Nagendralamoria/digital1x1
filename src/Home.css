@@ -1,0 +1,189 @@
+.app{
+  margin: 0;
+  padding:0;
+box-sizing: border-box;
+background: url("./images/1.png");
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+height: 50vw;
+}
+.p112{
+  margin-top: -2.5vw;
+}
+.ltext{
+  margin-top: 8vw;
+  padding: 2vw;
+  
+}
+.ltext h2{
+  font-size: 4vw;
+}
+.ltext h5{
+  font-size: 2.5vw;
+}
+.ltext h1{
+  font-size: 7vw;
+  
+}
+.landingpage{
+  display: flex;
+  box-sizing: border-box;
+}
+.ltext p{
+  font-size: 1.5vw;
+}
+
+.endtxt{
+align-items: center;
+position: relative;
+padding: 1vw;
+height: 50vw;
+  background: url("./images/5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.endtxt h1{
+  font-size: 8vw;
+
+}
+.endtxt h2{
+  margin-top: 11vw;
+  font-size: 5vw;
+  margin-bottom: -1vw;
+
+}
+.endtxt h3{
+  font-size: 5vw;
+  margin-top: -1%;
+}
+.endtxt p{
+  font-size: 1.5vw;
+}
+.endtxt h5{
+  margin-top: 5vw;
+  font-size: 3vw;
+}
+
+@media only screen and (max-width: 850px){
+  .ltext{
+    margin-top: 5vw;
+    padding: 2vw;
+    padding-bottom: 0%;
+  }
+  .ltext p{
+    margin-top: 20vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+  color: white;
+    font-weight: bold;
+    padding-left: 4vw;
+    padding-right: 2vw;
+    font-size: 3vw;
+    background: url("./images/7.png");
+    
+  }
+  .homecard{
+    margin-top: -15vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  .endmid{
+    padding-bottom: 2vw;
+
+  }
+  .endtxt h5{
+    margin-top: 20vw;
+padding-top: 3vw;
+    padding-left: 18vw;
+    padding-bottom: 3vw;
+    font-size: 7vw;
+  }
+  .p112 {
+     margin-top: -10vw;
+     margin-left: 14vw;
+  }
+  .endtxt p{
+    font-size: 4vw;
+ 
+    padding-left: 8vw;
+    align-content: center;
+  }
+}
+@media only screen and (max-width: 650px){
+  .ltext{
+    margin-top: 4vw;
+    padding: 2vw;
+    padding-bottom: 0%;
+  }
+}
+@media only screen and (max-width: 550px){
+  .ltext{
+    margin-top: 2vw;
+    padding: 2vw;
+    padding-bottom: 0%;
+  }
+  .ltext h2{
+    font-size: 5.5vw;
+  }
+  .ltext h5{
+    font-size: 3vw;
+    
+  }
+  .ltext h1{
+    font-size: 8.5vw;
+    
+  }
+  .ltext p{
+    margin-top: 9vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+  color: white;
+    font-weight: bold;
+    padding-left: 4vw;
+    padding-right: 2vw;
+    font-size: 3vw;
+    background: url("./images/7.png");
+    
+  }
+  .homecard{
+    margin-top: -20vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  .endtxt h1{
+    font-size: 9.5vw;
+  
+  }
+  .endtxt h2{
+  
+    font-size: 7vw;
+    margin-bottom: -1vw;
+  
+  }
+  .endtxt h3{
+    font-size: 5vw;
+    margin-top: -1;
+  }
+  .endtxt p{
+    font-size: 4vw;
+ 
+    padding-left: 8vw;
+    align-content: center;
+  }
+  .endmid{
+    padding-bottom: 2vw;
+
+  }
+  .endtxt h5{
+    margin-top: 15vw;
+padding-top: 3vw;
+    padding-left: 18vw;
+    padding-bottom: 3vw;
+    font-size: 7vw;
+  }
+  .p112 {
+     margin-top: -10vw;
+     margin-left: 14vw;
+  }
+}
